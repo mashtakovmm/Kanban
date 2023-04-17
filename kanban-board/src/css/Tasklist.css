@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.task-list {
+    background-color: #EBECF0;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 32px;
+    width: 300px;
+    min-height: 50px;
+    height: 190%;
+    flex-shrink: 0;
+    border-radius: 10px;
+    max-height: 760px;
+    overflow-y: auto;
+    font-family: 'Roboto';;
+}
+
+.task-list::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  .task-list::-webkit-scrollbar-thumb {
+    background-color: #CBCBCB;
+    border-radius: 10px;
+    height: 52px;
+  }
+  
+  .task-list::-webkit-scrollbar-track {
+    background-color: #FFFFFF;
+  }
+  
+  .task-list::-moz-scrollbar {
+    width: 12px;
+  }
+  
+  .task-list::-moz-scrollbar-thumb {
+    background-color: #CBCBCB;
+    border-radius: 10px;
+    height: 52px;
+  }
+  
+  .task-list::-moz-scrollbar-track {
+    background-color: #FFFFFF;
+  }
+  
+  .task-list::-ms-scrollbar {
+    width: 12px;
+  }
+  
+  .task-list::-ms-scrollbar-thumb {
+    background-color: #CBCBCB;
+    border-radius: 10px;
+    height: 52px;
+  }
+  
+  .task-list::-ms-scrollbar-track {
+    background-color: #FFFFFF;
+  }
+  
+  .task-list::-o-scrollbar {
+    width: 12px;
+  }
+  
+  .task-list::-o-scrollbar-thumb {
+    background-color: #CBCBCB;
+    border-radius: 10px;
+    height: 52px;
+  }
+  
+  .task-list::-o-scrollbar-track {
+    background-color: #FFFFFF;
+  }
+  
+  .task-list::-scrollbar {
+    width: 12px;
+  }
+  
+  .task-list::-scrollbar-thumb {
+    background-color: #CBCBCB;
+    border-radius: 10px;
+    height: 52px;
+  }
+  
+  .task-list::-scrollbar-track {
+    background-color: #FFFFFF;
+  }
+  
+
+.column-title {
+    margin: 12px 36px 7px 12px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    
+}
+
+.task-item {
+    border-radius: 10px;
+    background-color: white;
+    margin: 7px 12px 12px 7px;
+    padding: 7px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.button {
+    margin: 2px 170px 8px 13px;
+    min-width: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.add-task-button {
+    background-color: transparent;
+    border: none;
+    color: #5e6c84;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px;
+  }
+
+.add-task-button:hover {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.submit-button {
+    border-radius: 10px;
+    background-color: #0079BF;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 102px;
+    height: 29px;
+}
+
+.input {
+    border-radius: 10px;
+    background-color: white;
+    margin: 0px 12px 12px 7px;
+    padding: 7px;
+    border: none;
+    width: 249px;
+    height: 18px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+    
+}
+
+.select {
+    border-radius: 10px;
+    background-color: white;
+    margin: 0px 12px 12px 7px;
+    padding: 7px;
+    width: 263px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.option {
+    border-radius: 10px;
+    background-color: white !important;
+    margin: 0px 12px 12px 7px;
+    padding: 7px;
+    width: 263px;
+    min-height: 45px;
+}
+
+.option:hover {
+    background-color: #DEDEDE !important;
+}
+

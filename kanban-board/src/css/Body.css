@@ -1,0 +1,10 @@
+.body {
+    background-color: #0079BF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding-top: 20px;
+    min-height: calc(100vh - 130px);
+    width: 100%;
+  }
